@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/cms-system-common/pom.xml" />
         <option value="$PROJECT_DIR$/cms-system-model/pom.xml" />
         <option value="$PROJECT_DIR$/cms-system-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/cms-system-api/pom.xml" />
       </list>
     </option>
   </component>

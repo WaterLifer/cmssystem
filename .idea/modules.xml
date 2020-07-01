@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cms-system-api/cms-system-api.iml" filepath="$PROJECT_DIR$/cms-system-api/cms-system-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms-system-common/cms-system-common.iml" filepath="$PROJECT_DIR$/cms-system-common/cms-system-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms-system-model/cms-system-model.iml" filepath="$PROJECT_DIR$/cms-system-model/cms-system-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms-system-parent/cms-system-parent.iml" filepath="$PROJECT_DIR$/cms-system-parent/cms-system-parent.iml" />
