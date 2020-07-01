@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cms-system-utils" />
+        <module name="cms-system-common" />
+        <module name="cms-system-model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="14">
+      <module name="cms-system-common" target="14" />
+      <module name="cms-system-model" target="14" />
+      <module name="cms-system-parent" target="14" />
+      <module name="cms-system-utils" target="14" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cms-system-common" options="-parameters" />
+      <module name="cms-system-model" options="-parameters" />
+      <module name="cms-system-parent" options="" />
+      <module name="cms-system-utils" options="-parameters" />
+    </option>
+  </component>
+</project>

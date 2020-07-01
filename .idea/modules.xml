@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cms-system-common/cms-system-common.iml" filepath="$PROJECT_DIR$/cms-system-common/cms-system-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-system-model/cms-system-model.iml" filepath="$PROJECT_DIR$/cms-system-model/cms-system-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-system-parent/cms-system-parent.iml" filepath="$PROJECT_DIR$/cms-system-parent/cms-system-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-system-utils/cms-system-utils.iml" filepath="$PROJECT_DIR$/cms-system-utils/cms-system-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cmssystem.iml" filepath="$PROJECT_DIR$/.idea/cmssystem.iml" />
+    </modules>
+  </component>
+</project>
