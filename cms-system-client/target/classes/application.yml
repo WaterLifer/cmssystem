@@ -1,0 +1,16 @@
+server:
+  port: 8003
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: cmssystem
+  rabbitmq:
+    host: 192.168.1.41
+    port: 5672
+    username: root
+    password: root
+cms:
+  mq:
+    queue: cms_postpage_queue
+    routingKey: 5a751fab6abb5044e0d19ea1

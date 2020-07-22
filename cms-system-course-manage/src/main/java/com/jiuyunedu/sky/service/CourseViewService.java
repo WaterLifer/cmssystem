@@ -1,4 +1,8 @@
 package com.jiuyunedu.sky.service;
 
-public class CourseViewService {
+import com.jiuyunedu.sky.course.ext.CourseView;
+
+public interface CourseViewService {
+
+    CourseView getCourseViewByCourseId(String courseId);
 }

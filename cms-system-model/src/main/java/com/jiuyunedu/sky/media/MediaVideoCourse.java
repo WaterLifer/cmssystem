@@ -1,6 +1,7 @@
 package com.jiuyunedu.sky.media;
 
-import com.xuecheng.framework.utils.MD5Util;
+
+import com.jiuyunedu.sky.utils.MD5Util;
 import lombok.Data;
 import lombok.ToString;
 import org.springframework.data.annotation.Id;

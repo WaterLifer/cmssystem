@@ -11,6 +11,12 @@
         <option value="$PROJECT_DIR$/cms-system-model/pom.xml" />
         <option value="$PROJECT_DIR$/cms-system-utils/pom.xml" />
         <option value="$PROJECT_DIR$/cms-system-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cms-system-service-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/cms-system-template/pom.xml" />
+        <option value="$PROJECT_DIR$/cms-system-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cms-system-course-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/cms-system-file-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/cms-system-eureka-server/pom.xml" />
       </list>
     </option>
   </component>

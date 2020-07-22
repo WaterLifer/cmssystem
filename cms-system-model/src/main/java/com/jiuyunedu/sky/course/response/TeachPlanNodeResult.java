@@ -1,17 +1,17 @@
 package com.jiuyunedu.sky.course.response;
 
-import com.jiuyunedu.sky.course.Teachplan;
+import com.jiuyunedu.sky.course.ext.TeachplanNode;
 import com.jiuyunedu.sky.model.response.ResponseResult;
 import com.jiuyunedu.sky.model.response.ResultCode;
 import lombok.Data;
 
 @Data
-public class TeachPlanResult extends ResponseResult {
+public class TeachPlanNodeResult extends ResponseResult {
 
-    Teachplan teachplan;
+    TeachplanNode teachplanNode;
 
-    public TeachPlanResult(ResultCode resultCode, Teachplan teachplan) {
+    public TeachPlanNodeResult(ResultCode resultCode, TeachplanNode teachplanNode) {
         super(resultCode);
-        this.teachplan = teachplan;
+        this.teachplanNode = teachplanNode;
     }
 }

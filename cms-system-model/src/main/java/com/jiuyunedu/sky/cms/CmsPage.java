@@ -1,6 +1,7 @@
 package com.jiuyunedu.sky.cms;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -16,6 +17,7 @@ import java.util.List;
  */
 @Data
 @ToString
+@NoArgsConstructor
 @Document(collection = "cms_page")
 public class CmsPage {
     /**

@@ -4,6 +4,7 @@ import com.jiuyunedu.sky.cms.CmsPage;
 import com.jiuyunedu.sky.model.response.ResponseResult;
 import com.jiuyunedu.sky.model.response.ResultCode;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @Author WaterLifer
@@ -12,6 +13,7 @@ import lombok.Data;
  * @Version 1.0
  */
 @Data
+@NoArgsConstructor
 public class CmsPageResult extends ResponseResult {
     CmsPage cmsPage;
     public CmsPageResult(ResultCode resultCode, CmsPage cmsPage) {

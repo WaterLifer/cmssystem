@@ -1,4 +1,9 @@
 package com.jiuyunedu.sky.dao;
 
-public interface FileSystemRepository {
+import com.jiuyunedu.sky.filesystem.FileSystem;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface FileSystemRepository extends MongoRepository<FileSystem, String> {
 }

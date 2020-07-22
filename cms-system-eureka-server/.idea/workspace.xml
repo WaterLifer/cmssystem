@@ -133,6 +133,9 @@
       <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/resources/mapper/CourseCategoryMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/resources/mapper/TeachPlanMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/test/java/com/jiuyunedu/sky/CourseBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cms-system-file-manage/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cms-system-file-manage/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cms-system-file-manage/.idea/jarRepositories.xml" afterDir="false" />
@@ -305,7 +308,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595253147552</updated>
-      <workItem from="1595253151887" duration="4000" />
+      <workItem from="1595253151887" duration="18000" />
     </task>
     <servers />
   </component>

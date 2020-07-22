@@ -1,4 +1,9 @@
 package com.jiuyunedu.sky.service;
 
-public class CourseCategoryService {
+import com.jiuyunedu.sky.course.ext.CategoryNode;
+import com.jiuyunedu.sky.model.response.QueryResponseResult;
+
+public interface CourseCategoryService {
+
+    QueryResponseResult<CategoryNode> getCategory();
 }

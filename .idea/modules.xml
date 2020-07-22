@@ -3,9 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cms-system-api/cms-system-api.iml" filepath="$PROJECT_DIR$/cms-system-api/cms-system-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-system-client/cms-system-client.iml" filepath="$PROJECT_DIR$/cms-system-client/cms-system-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms-system-common/cms-system-common.iml" filepath="$PROJECT_DIR$/cms-system-common/cms-system-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-system-course-manage/cms-system-course-manage.iml" filepath="$PROJECT_DIR$/cms-system-course-manage/cms-system-course-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-system-eureka-server/cms-system-eureka-server.iml" filepath="$PROJECT_DIR$/cms-system-eureka-server/cms-system-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-system-file-manage/cms-system-file-manage.iml" filepath="$PROJECT_DIR$/cms-system-file-manage/cms-system-file-manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms-system-model/cms-system-model.iml" filepath="$PROJECT_DIR$/cms-system-model/cms-system-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms-system-parent/cms-system-parent.iml" filepath="$PROJECT_DIR$/cms-system-parent/cms-system-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-system-service-manage/cms-system-service-manage.iml" filepath="$PROJECT_DIR$/cms-system-service-manage/cms-system-service-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-system-template/cms-system-template.iml" filepath="$PROJECT_DIR$/cms-system-template/cms-system-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms-system-utils/cms-system-utils.iml" filepath="$PROJECT_DIR$/cms-system-utils/cms-system-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/cmssystem.iml" filepath="$PROJECT_DIR$/.idea/cmssystem.iml" />
     </modules>

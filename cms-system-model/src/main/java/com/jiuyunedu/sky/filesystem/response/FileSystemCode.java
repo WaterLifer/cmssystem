@@ -20,7 +20,9 @@ public enum FileSystemCode implements ResultCode {
     FS_DELETEFILE_DBFAIL(false,25005,"删除文件信息失败！"),
     FS_DELETEFILE_SERVERFAIL(false,25006,"删除文件失败！"),
     FS_UPLOADFILE_METAERROR(false,25007,"上传文件的元信息请使用json格式！"),
-    FS_UPLOADFILE_USERISNULL(false,25008,"上传文件用户为空！");
+    FS_UPLOADFILE_USERISNULL(false,25008,"上传文件用户为空！"),
+    FS_UPLOADFILE_FORMAT_ERROR(false,25009,"上传文件格式不正确！"),
+    FS_UPLOADFILE_DATA_ERROR(false,25010,"上传数据格式不正确！");
 
     //操作代码
     boolean success;

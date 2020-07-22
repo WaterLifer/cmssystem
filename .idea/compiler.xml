@@ -2,30 +2,49 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cms-system-client" />
+        <module name="cms-system-service-manage" />
+        <module name="cms-system-eureka-server" />
+        <module name="cms-system-course-manage" />
+        <module name="cms-system-file-manage" />
         <module name="cms-system-api" />
-        <module name="cms-system-utils" />
-        <module name="cms-system-common" />
         <module name="cms-system-model" />
+        <module name="cms-system-template" />
+        <module name="cms-system-common" />
+        <module name="cms-system-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="14">
       <module name="cms-system-api" target="14" />
+      <module name="cms-system-client" target="14" />
       <module name="cms-system-common" target="14" />
+      <module name="cms-system-course-manage" target="14" />
+      <module name="cms-system-eureka-server" target="14" />
+      <module name="cms-system-file-manage" target="14" />
       <module name="cms-system-model" target="14" />
       <module name="cms-system-parent" target="14" />
+      <module name="cms-system-service-manage" target="14" />
+      <module name="cms-system-template" target="14" />
       <module name="cms-system-utils" target="14" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cms-system-api" options="-parameters" />
+      <module name="cms-system-client" options="-parameters" />
       <module name="cms-system-common" options="-parameters" />
+      <module name="cms-system-course-manage" options="-parameters" />
+      <module name="cms-system-eureka-server" options="-parameters" />
+      <module name="cms-system-file-manage" options="-parameters" />
       <module name="cms-system-model" options="-parameters" />
       <module name="cms-system-parent" options="" />
+      <module name="cms-system-service-manage" options="-parameters" />
+      <module name="cms-system-template" options="-parameters" />
       <module name="cms-system-utils" options="-parameters" />
     </option>
   </component>

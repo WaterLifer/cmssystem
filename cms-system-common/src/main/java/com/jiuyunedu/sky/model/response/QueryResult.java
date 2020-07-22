@@ -1,5 +1,6 @@
 package com.jiuyunedu.sky.model.response;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.ToString;
 
@@ -13,6 +14,7 @@ import java.util.List;
  */
 @Data
 @ToString
+@AllArgsConstructor
 public class QueryResult<T> {
     //数据列表
     private List<T> list;

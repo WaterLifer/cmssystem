@@ -1,4 +1,6 @@
 package com.jiuyunedu.sky.service;
 
-public class ICmsPageService {
+public interface ICmsPageService {
+
+    void downloadAndSave(String pageId);
 }

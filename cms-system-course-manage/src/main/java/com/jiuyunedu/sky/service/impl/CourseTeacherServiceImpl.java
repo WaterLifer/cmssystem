@@ -1,4 +1,8 @@
 package com.jiuyunedu.sky.service.impl;
 
-public class CourseTeacherServiceImpl {
+import com.jiuyunedu.sky.service.CourseTeacherService;
+import org.springframework.stereotype.Service;
+
+@Service
+public class CourseTeacherServiceImpl implements CourseTeacherService {
 }

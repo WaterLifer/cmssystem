@@ -1,4 +1,9 @@
 package com.jiuyunedu.sky.api;
 
-public class SysDictionaryControllerApi {
+import com.jiuyunedu.sky.system.response.SysDictionaryResponse;
+
+public interface SysDictionaryControllerApi {
+
+    SysDictionaryResponse findByType(String typeCode);
+
 }

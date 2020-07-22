@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <meta http-equiv="pragma" content="no-cache" />
     <meta http-equiv="content-type" content="no-cache, must-revalidate" />
-    <title>在线教育网--Bootstrap开发框架</title>
+    <title>在线教育网--[[${courseBase.name}]]</title>
 </head>
 <body data-spy="scroll" data-target="#articleNavbar" data-offset="150">
 <!-- 页面头部 -->
@@ -20,25 +20,37 @@
     <div class="banner-bg"></div>
     <div class="banner-info">
         <div class="banner-left">
-            <p class="tit">Bootstrap开发框架</p>
-            <p class="pic"><span class="new-pic">特惠价格￥98</span> <span class="old-pic">原价￥98</span></p>
+            <p class="tit">[[${courseBase.name}]]</p>
+            <p class="pic">
+                <span class="new-pic">特惠价格￥[[${courseMarket.price}]]</span>
+                <span class="old-pic">原价￥0</span>
+            </p>
             <p class="info">
                 <a href="http://ucenter.xuecheng.com/#/learning/4028e581617f945f01617f9dabc40000/0"  target="_blank" v-if="learnstatus == 1" v-cloak>马上学习</a>
                 <a href="#"  @click="addopencourse" v-if="learnstatus == 2" v-cloak>立即报名</a>
                 <a href="#"  @click="buy" v-if="learnstatus == 3" v-cloak>立即购买</a>
-                <span><em>难度等级</em>
-                中等
+                <span>
+                    <em>难度等级</em>
+                    中等
                 </span>
-                <span><em>课程时长</em><stat v-text="course_stat.s601001"></stat>
+                <span>
+                    <em>课程时长</em>
+                    <stat v-text="course_stat.s601001"></stat>
                 </span>
-                <span><em>评分</em><stat v-text="course_stat.s601002"></stat></span>
-                <span><em>授课模式</em>
-                 任务式学习
+                <span>
+                    <em>评分</em>
+                    <stat v-text="course_stat.s601002"></stat>
+                </span>
+                <span>
+                    <em>授课模式</em>
+                    任务式学习
                 </span>
             </p>
         </div>
         <div class="banner-rit">
-            <p><img src="http://img.xuecheng.com/group1/M00/00/01/wKhlQFqO0OGAFyhGAAA-8SWa8Qc537.jpg" alt="" width="270" height="156"> </p>
+            <p>
+                <img th:src="'http://api.jyonline.com/' + ${coursePic.pic}" alt="" width="270" height="156">
+            </p>
             <p class="vid-act"><span> <i class="i-heart"></i>收藏 <stat v-text="course_stat.s601003"></stat> </span> <span>分享 <i class="i-weixin"></i><i class="i-qq"></i></span></p>
         </div>
     </div>
@@ -68,7 +80,7 @@
                             <div class="title"><span>适用人群</span></div>
                             <div class="cont cktop">
                                 <div >
-                                    <p>本课程适合所有学习编程入门的学生。</p>
+                                    <p>[[${courseBase.users}]]</p>
                                 </div>
                                 <!--<span class="on-off">更多 <i class="i-chevron-bot"></i></span>-->
                             </div>
@@ -76,14 +88,14 @@
                         <div class="content-com course">
                             <div class="title"><span>课程制作</span></div>
                             <!--#include virtual="/teacher/teacher_info_template01.html"-->
-
-
                         </div>
                         <div class="content-com about">
                             <div class="title"><span>课程介绍</span></div>
                             <div class="cont cktop">
                                 <div >
-                                    <p>Bootstrap是由Twitter推出的一个前台页面开发框架，在行业之中使用较为广泛。此开发框架包含了大量的CSS、JS程序代码，可以帮助开发者（尤其是不擅长页面开发的程序人员）轻松的实现一个不受浏览器限制的精美界面效果。</p>
+                                    <p>
+                                        [[${courseBase.description}]]
+                                    </p>
                                 </div>
                                 <!--<span class="on-off">更多 <i class="i-chevron-bot"></i></span>-->
                             </div>
@@ -167,45 +179,15 @@
             <div class="article-cont-catalog">
                 <div class="article-left-box">
                     <div class="content">
-                                <div class="item">
-                                    <div class="title act"><i class="i-chevron-top"></i>计算机原理<span class="time">8小时</span></div>
+                                <div class="item" th:each="plan : ${teachplanNode.children}">
+                                    <div class="title act"><i class="i-chevron-top"></i>[[${plan.pname}]]<span class="time">[[${plan.timelength}]]</span></div>
                                     <div class="about"></div>
                                     <div class="drop-down" style="height: 100px;">
                                         <ul class="list-box">
-                                                <li>计算机硬件 <span>66’15”</span></li>
-                                                <li>计算机软件 <span>66’15”</span></li>
+                                                <li th:each="child : ${plan.children}">[[${child.pname}]] <span>[[${child.timelength}]]</span></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="title act"><i class="i-chevron-top"></i>计算机编程入门<span class="time">8小时</span></div>
-                                    <div class="about"></div>
-                                    <div class="drop-down" style="height: 100px;">
-                                        <ul class="list-box">
-                                                <li>java语法介绍 <span>66’15”</span></li>
-                                                <li>Hello World <span>66’15”</span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="title act"><i class="i-chevron-top"></i>数据库编程<span class="time">8小时</span></div>
-                                    <div class="about"></div>
-                                    <div class="drop-down" style="height: 0px;">
-                                        <ul class="list-box">
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="title act"><i class="i-chevron-top"></i>操作系统原理<span class="time">8小时</span></div>
-                                    <div class="about"></div>
-                                    <div class="drop-down" style="height: 100px;">
-                                        <ul class="list-box">
-                                                <li>操作系统原理 <span>66’15”</span></li>
-                                                <li>操作系统类型介绍 <span>66’15”</span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
                     </div>
                 </div>
                 <div class="article-right-box">
@@ -602,13 +584,13 @@
 
     <!--支付弹窗- start -->
     <div class="popup-pay-box">
-        <div class="title">Bootstrap开发框架 <span class="close-popup">×</span></div>
+        <div class="title">[[${courseBase.name}]]<span class="close-popup">×</span></div>
         <div class="content">
-            <img src="./text.png" alt="">
+            <img th:src="@{http://www.jyonline.com/img/twidget-text.png}" alt="">
             <div class="info">
                 <p class="info-tit">Bootstrap开发框架 <span>课程有效期:2017年9月12日-2018年9月11日</span></p>
-                <p class="info-pic">课程价格 : <span>￥98</span></p>
-                <p class="info-new-pic">优惠价格 : <span>￥98</span></p>
+                <p class="info-pic">课程价格 : <span>￥[[${courseMarket.price}]]</span></p>
+                <p class="info-new-pic">优惠价格 : <span>￥[[${courseMarket.price}]]</span></p>
             </div>
         </div>
        <!-- <div class="fact-pic">实际支付: <span>￥999</span></div>-->

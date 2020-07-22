@@ -23,12 +23,12 @@ public class SysDictionary {
     private String id;
 
     @Field("d_name")
-    private String dName;
+    private String name;
 
     @Field("d_type")
-    private String dType;
+    private String type;
 
     @Field("d_value")
-    private List<SysDictionaryValue> dValue;
+    private List<SysDictionaryValue> value;
 
 }
