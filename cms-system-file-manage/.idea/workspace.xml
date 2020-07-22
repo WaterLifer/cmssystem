@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abdc1c1b-51ab-4d26-8ec3-637d201a8c4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__cn_hutool_hutool_all_5_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_rabbitmq_amqp_client_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_rabbitmq_http_client_3_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hamcrest_hamcrest_library_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_junit_2_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_test_2_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_messaging_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOG_HOME_IS_UNDEFINED/xc.2020-07-07.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/CmsConfigControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/CmsCourseControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/CmsPageControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/CmsSiteControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/CmsTemplateControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/SysDictionaryControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/cms-system-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/src/main/java/com/jiuyunedu/sky/SystemClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/src/main/java/com/jiuyunedu/sky/dao/CmsPageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/src/main/java/com/jiuyunedu/sky/listener/StaticPageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/src/main/java/com/jiuyunedu/sky/service/ICmsPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/src/main/java/com/jiuyunedu/sky/service/impl/CmsPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-common/src/main/java/com/jiuyunedu/sky/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-common/src/main/java/com/jiuyunedu/sky/exception/ExceptionCast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/cms-system-course-manage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/CourseManageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/controller/CmsCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/controller/SysDictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/dao/CourseBaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/dao/CourseCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/dao/SysDictionaryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/CourseBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/CourseCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/ISysDictionaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/impl/CourseBaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/impl/CourseCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/impl/SysDictionaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/resources/mapper/CourseBaseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/test/java/com/jiuyunedu/sky/CourseBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/cms/request/QueryPageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/system/response/SysDictionaryCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/system/response/SysDictionaryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/cms-system-service-manage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/CmsServiceManageApplictaion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/advice/CustomControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/config/CustomConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/dao/CmsConfigRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/dao/CmsPageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/dao/CmsSiteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/dao/CmsTemplateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/ICmsConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/ICmsPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/ICmsSiteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/ICmsTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/impl/CmsConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/impl/CmsPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/impl/CmsSiteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/impl/CmsTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/web/controller/CmsConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/web/controller/CmsPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/web/controller/CmsPagePreviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/web/controller/CmsSiteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/web/controller/CmsTemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/resources/templates/index_banner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/test/java/com/jiuyunedu/sky/test/CmsPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/cms-system-template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/src/main/java/com/jiuyunedu/sky/TemplateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/src/main/java/com/jiuyunedu/sky/config/CustomConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/src/main/java/com/jiuyunedu/sky/controller/BannerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-template/src/main/resources/templates/index_banner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-utils/src/main/java/com/jiuyunedu/sky/utils/BeanCopyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__io_micrometer_micrometer_core_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_3_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_3_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-api/cms-system-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-api/cms-system-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/src/main/java/com/jiuyunedu/sky/model/response/CommonCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-common/src/main/java/com/jiuyunedu/sky/model/response/CommonCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/src/main/java/com/jiuyunedu/sky/model/response/QueryResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-common/src/main/java/com/jiuyunedu/sky/model/response/QueryResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/target/classes/com/jiuyunedu/sky/model/response/CommonCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-common/target/classes/com/jiuyunedu/sky/model/response/CommonCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/target/classes/com/jiuyunedu/sky/model/response/QueryResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-common/target/classes/com/jiuyunedu/sky/model/response/QueryResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/cms-system-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/cms-system-model.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/cms/response/CmsCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/cms/response/CmsCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/course/CourseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/course/CourseBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/course/response/AddCourseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/course/response/CourseBaseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/course/response/CourseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/course/response/CourseCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/media/MediaVideoCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/media/MediaVideoCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/system/SysDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/system/SysDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-utils/cms-system-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-utils/cms-system-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-utils/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\WaterLifer\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../greenSoftwares/apacheMaven" />
+        <option name="userSettingsFile" value="C:\Users\WaterLifer\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="14" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ekIJR0aszG06JiYAjJmrBBWGJV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abdc1c1b-51ab-4d26-8ec3-637d201a8c4e" name="Default Changelist" comment="" />
+      <created>1594859091085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594859091085</updated>
+      <workItem from="1594859096876" duration="43000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
