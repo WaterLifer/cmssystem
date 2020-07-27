@@ -1,0 +1,15 @@
+server:
+  port: 8006
+spring:
+  application:
+    name: cms-system-search-manage
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.jyonline.com:7001/eureka/
+  instance:
+    instance-id: cms-system-search-manage
+    prefer-ip-address: true
+elasticsearch:
+  host: 192.168.1.37:9200
+  index: course

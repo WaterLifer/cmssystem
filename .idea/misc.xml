@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/cms-system-course-manage/pom.xml" />
         <option value="$PROJECT_DIR$/cms-system-file-manage/pom.xml" />
         <option value="$PROJECT_DIR$/cms-system-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cms-system-search-manage/pom.xml" />
       </list>
     </option>
   </component>

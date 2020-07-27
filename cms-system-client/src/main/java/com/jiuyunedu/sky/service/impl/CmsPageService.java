@@ -38,7 +38,7 @@ public class CmsPageService implements ICmsPageService {
             ExceptionCast.throwException(CmsCode.CMS_PAGE_NOTEXIST);
         }
         // 拼接全路径
-        String htmlPath = cmsPage.getPagePhysicalPath() + cmsPage.getPageWebPath();
+        String htmlPath = cmsPage.getPagePhysicalPath() + cmsPage.getPageWebPath() + cmsPage.getPageName();
         // 根据CmsPage中的htmlFileId字段，从GridFS中读取内容并生成到指定目录
         GridFSFile gridFSFile = gridFsOperations.findOne(Query.query(GridFsCriteria.where("_id").is(cmsPage.getHtmlFileId())));
         if (gridFSFile == null) {

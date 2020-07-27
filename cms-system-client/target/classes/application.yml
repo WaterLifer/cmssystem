@@ -6,11 +6,19 @@ spring:
       uri: mongodb://localhost:27017
       database: cmssystem
   rabbitmq:
-    host: 192.168.1.41
+    host: 192.168.2.106
     port: 5672
     username: root
     password: root
+  application:
+    name: cms-system-client
 cms:
   mq:
-    queue: cms_postpage_queue
+    queue: queue.static
     routingKey: 5a751fab6abb5044e0d19ea1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.jyonline.com:7001/eureka/
+  instance:
+    instance-id: cms-system-client

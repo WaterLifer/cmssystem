@@ -15,4 +15,5 @@ public interface CourseBaseService {
 
     CoursePublishResult preview(String courseId);
 
+    CoursePublishResult publish(String courseId);
 }

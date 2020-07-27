@@ -14,4 +14,6 @@ public interface CmsCourseControllerApi {
     CourseBaseResult getById(String courseId);
 
     CoursePublishResult preview(String courseId);
+
+    CoursePublishResult publish(String courseId);
 }

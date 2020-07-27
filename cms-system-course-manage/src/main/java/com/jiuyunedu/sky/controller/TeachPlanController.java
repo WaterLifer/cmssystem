@@ -21,7 +21,7 @@ public class TeachPlanController implements TeachPlanControllerApi {
 
     @Override
     @GetMapping("/get/course/{id}")
-    public TeachPlanNodeResult getTeachPlanByCourseId(String courseId) {
+    public TeachPlanNodeResult getTeachPlanByCourseId(@PathVariable("id") String courseId) {
         return teachPlanService.getTeachPlanByCourseId(courseId);
     }
 
@@ -38,7 +38,7 @@ public class TeachPlanController implements TeachPlanControllerApi {
     }
 
     @Override
-    @GetMapping("/get/id")
+    @GetMapping("/get/{id}")
     public TeachPlanResult getById(@PathVariable("id") String id) {
         return teachPlanService.getById(id);
     }

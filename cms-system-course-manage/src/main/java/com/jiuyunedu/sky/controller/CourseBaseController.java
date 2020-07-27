@@ -31,12 +31,22 @@ public class CourseBaseController implements CmsCourseControllerApi {
     }
 
     @Override
-    public CourseBaseResult getById(String courseId) {
+    @GetMapping("/get/{id}")
+    public CourseBaseResult getById(@PathVariable("id") String courseId) {
         return courseBaseService.getById(courseId);
     }
 
     @Override
-    public CoursePublishResult preview(String courseId) {
+    @GetMapping("/preview/{id}")
+    public CoursePublishResult preview(@PathVariable("id") String courseId) {
         return courseBaseService.preview(courseId);
     }
+
+    @Override
+    @GetMapping("/publish/{id}")
+    public CoursePublishResult publish(@PathVariable("id") String courseId) {
+        return courseBaseService.publish(courseId);
+    }
+
+
 }

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="364bb2cf-8409-4b78-a634-4f6c7b6828ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__io_github_openfeign_feign_core_10_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-api/target/classes/com/jiuyunedu/sky/api/CourseCategoryControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/client/CourseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/test/java/com/jiuyunedu/sky/test/TeachPlanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/CourseManageApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/client/CourseClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/config/MyBatisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/controller/CourseBaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/controller/CourseCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/controller/CoursePicController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/controller/CourseTeacherController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/controller/CourseViewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/controller/SysDictionaryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/controller/TeachPlanController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/dao/CourseBaseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/dao/CourseCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/dao/CourseMarketMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/dao/CoursePicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/dao/CourseTeacherMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/dao/SysDictionaryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/dao/TeachPlanMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/CourseBaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/CourseCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/CoursePicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/CourseTeacherService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/CourseViewService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/SysDictionaryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/TeachPlanService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/CourseBaseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/CourseCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/CoursePicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/CourseTeacherServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/CourseViewServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/SysDictionaryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/TeachPlanServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/mapper/CourseBaseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/mapper/CourseCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/mapper/TeachPlanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/test-classes/com/jiuyunedu/sky/test/TeachPlanTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-file-manage.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/cms/response/CmsSiteResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-model/target/classes/com/jiuyunedu/sky/cms/response/CmsSiteResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/CmsCourseControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/CmsCourseControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/CmsPageControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/CmsPageControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-api/target/classes/com/jiuyunedu/sky/api/CmsCourseControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-api/target/classes/com/jiuyunedu/sky/api/CmsCourseControllerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-api/target/classes/com/jiuyunedu/sky/api/CmsPageControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-api/target/classes/com/jiuyunedu/sky/api/CmsPageControllerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-client/src/main/java/com/jiuyunedu/sky/service/impl/CmsPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-client/src/main/java/com/jiuyunedu/sky/service/impl/CmsPageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-client/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-client/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-client/target/classes/com/jiuyunedu/sky/service/impl/CmsPageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-client/target/classes/com/jiuyunedu/sky/service/impl/CmsPageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/cms-system-course-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/cms-system-course-manage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/CourseManageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/CourseManageApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/config/MyBatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/controller/CourseBaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/controller/CourseBaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/controller/TeachPlanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/controller/TeachPlanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/dao/TeachPlanMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/dao/TeachPlanMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/CourseBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/CourseBaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/impl/CourseBaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/impl/CourseBaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/src/main/resources/mapper/TeachPlanMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/resources/mapper/TeachPlanMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-file-manage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-file-manage/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/target/classes/com/jiuyunedu/sky/course/response/CourseCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/target/classes/com/jiuyunedu/sky/course/response/CourseCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/target/classes/com/jiuyunedu/sky/system/response/SysDictionaryResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/target/classes/com/jiuyunedu/sky/system/response/SysDictionaryResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/ICmsPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/ICmsPageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/ICmsSiteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/ICmsSiteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/impl/CmsPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/impl/CmsPageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/impl/CmsSiteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/service/impl/CmsSiteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/web/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/java/com/jiuyunedu/sky/web/controller/CmsPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/target/classes/com/jiuyunedu/sky/service/ICmsPageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/target/classes/com/jiuyunedu/sky/service/ICmsPageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/target/classes/com/jiuyunedu/sky/service/ICmsSiteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/target/classes/com/jiuyunedu/sky/service/ICmsSiteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/target/classes/com/jiuyunedu/sky/service/impl/CmsPageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/target/classes/com/jiuyunedu/sky/service/impl/CmsPageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/target/classes/com/jiuyunedu/sky/service/impl/CmsSiteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/target/classes/com/jiuyunedu/sky/service/impl/CmsSiteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/target/classes/com/jiuyunedu/sky/web/controller/CmsPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/target/classes/com/jiuyunedu/sky/web/controller/CmsPageController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\WaterLifer\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../greenSoftwares/apacheMaven" />
+        <option name="userSettingsFile" value="C:\Users\WaterLifer\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="14" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1f763gHLZhVtU3iIlwVuXaMMe0f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="364bb2cf-8409-4b78-a634-4f6c7b6828ce" name="Default Changelist" comment="" />
+      <created>1595556585354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595556585354</updated>
+      <workItem from="1595556589986" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

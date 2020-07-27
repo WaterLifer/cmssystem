@@ -4,6 +4,7 @@ import com.jiuyunedu.sky.api.CmsPageControllerApi;
 import com.jiuyunedu.sky.cms.CmsPage;
 import com.jiuyunedu.sky.cms.request.QueryPageRequest;
 import com.jiuyunedu.sky.cms.response.CmsPageResult;
+import com.jiuyunedu.sky.course.response.CoursePublishResult;
 import com.jiuyunedu.sky.model.response.QueryResponseResult;
 import com.jiuyunedu.sky.model.response.ResponseResult;
 import com.jiuyunedu.sky.service.ICmsPageService;
@@ -55,8 +56,8 @@ public class CmsPageController implements CmsPageControllerApi {
     }
 
     @Override
-    @GetMapping("/publish/{id}")
-    public ResponseResult publishPage(@PathVariable("id") String pageId) {
-        return cmsPageService.publishPage(pageId);
+    @PostMapping("/publish")
+    public CoursePublishResult publishPage(@RequestBody CmsPage cmsPage) {
+        return cmsPageService.publishPage(cmsPage);
     }
 }

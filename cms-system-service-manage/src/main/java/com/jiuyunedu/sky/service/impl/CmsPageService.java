@@ -3,10 +3,13 @@ package com.jiuyunedu.sky.service.impl;
 import cn.hutool.core.util.IdUtil;
 import com.alibaba.fastjson.JSON;
 import com.jiuyunedu.sky.cms.CmsPage;
+import com.jiuyunedu.sky.cms.CmsSite;
 import com.jiuyunedu.sky.cms.CmsTemplate;
 import com.jiuyunedu.sky.cms.request.QueryPageRequest;
 import com.jiuyunedu.sky.cms.response.CmsCode;
 import com.jiuyunedu.sky.cms.response.CmsPageResult;
+import com.jiuyunedu.sky.cms.response.CmsSiteResult;
+import com.jiuyunedu.sky.course.response.CoursePublishResult;
 import com.jiuyunedu.sky.dao.CmsPageRepository;
 import com.jiuyunedu.sky.dao.CmsTemplateRepository;
 import com.jiuyunedu.sky.exception.ExceptionCast;
@@ -55,6 +58,7 @@ public class CmsPageService implements ICmsPageService {
     private final GridFsOperations gridFsOperations;
     private final TemplateEngine templateEngine;
     private final RabbitTemplate rabbitTemplate;
+    private final CmsSiteService cmsSiteService;
 
     @Value("${cms.mq.exchange}")
     public String exchange;
@@ -65,13 +69,15 @@ public class CmsPageService implements ICmsPageService {
                           CmsTemplateRepository cmsTemplateRepository,
                           GridFsOperations gridFsOperations,
                           TemplateEngine templateEngine,
-                          RabbitTemplate rabbitTemplate) {
+                          RabbitTemplate rabbitTemplate,
+                          CmsSiteService cmsSiteService) {
         this.cmsPageRepository = cmsPageRepository;
         this.restTemplate = restTemplate;
         this.cmsTemplateRepository = cmsTemplateRepository;
         this.gridFsOperations = gridFsOperations;
         this.templateEngine = templateEngine;
         this.rabbitTemplate = rabbitTemplate;
+        this.cmsSiteService = cmsSiteService;
     }
 
     @Override
@@ -133,7 +139,10 @@ public class CmsPageService implements ICmsPageService {
                     cmsPage.getPageWebPath());
             // 校验页面是否存在，已经存在由抛出异常
             if (page != null) {
-                ExceptionCast.throwException(CmsCode.CMS_ADDPAGE_EXISTSNAME);
+               // 更新
+                BeanCopyUtils.copyPropertiesIgnoreNull(cmsPage, page);
+                CmsPage savedCmsPage = cmsPageRepository.save(page);
+                return new CmsPageResult(CommonCode.SUCCESS, savedCmsPage);
             }
             cmsPage.setPageId(IdUtil.simpleUUID());
             CmsPage savedPage = cmsPageRepository.save(cmsPage);
@@ -272,14 +281,30 @@ public class CmsPageService implements ICmsPageService {
     }
 
     @Override
-    public ResponseResult publishPage(String pageId) {
+    public CoursePublishResult publishPage(CmsPage cmsPage) {
+        if (cmsPage == null) {
+            ExceptionCast.throwException(CmsCode.CMS_PAGE_NOTEXIST);
+        }
+        CmsPageResult cmsPageResult = this.saveOrUpdate(cmsPage);
+        if (!cmsPageResult.isSuccess()) {
+            ExceptionCast.throwException(CmsCode.CMS_PAGE_NOTEXIST);
+        }
+        CmsPage result = cmsPageResult.getCmsPage();
+        CmsSiteResult cmsSiteResult = cmsSiteService.getSiteById(result.getSiteId());
+        if (!cmsSiteResult.isSuccess()) {
+            ExceptionCast.throwException(CommonCode.FAIL);
+        }
+        CmsSite cmsSite = cmsSiteResult.getCmsSite();
+        // 拼接访问地址
+        String pageUrl = cmsSite.getSiteDomain() + result.getPageWebPath() + result.getPageName();
+
         // 获取预览代码
-        String htmlCode = this.getPageHtml(pageId);
+        String htmlCode = this.getPageHtml(result.getPageId());
         // 将预览代码保存到GridFS
-        saveToGridFS(pageId, htmlCode);
+        saveToGridFS(result.getPageId(), htmlCode);
         // 向RabbitMQ发送消息
-        sendMessageToMQ(pageId);
-        return new ResponseResult(CommonCode.SUCCESS);
+        sendMessageToMQ(result.getPageId());
+        return new CoursePublishResult(CommonCode.SUCCESS, pageUrl);
     }
 
     public void saveToGridFS(String pageId, String htmlCode) {

@@ -21,6 +21,7 @@ fdfs:
     max-idle-per-key: 10
 eureka:
   client:
-    service-url: http://eureka.jyonline.com:7001/eureka/
+    service-url:
+      defaultZone: http://eureka.jyonline.com:7001/eureka/
   instance:
     instance-id: cms-system-file-manage

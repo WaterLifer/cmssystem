@@ -3,6 +3,7 @@ package com.jiuyunedu.sky.service;
 import com.jiuyunedu.sky.cms.CmsPage;
 import com.jiuyunedu.sky.cms.request.QueryPageRequest;
 import com.jiuyunedu.sky.cms.response.CmsPageResult;
+import com.jiuyunedu.sky.course.response.CoursePublishResult;
 import com.jiuyunedu.sky.model.response.QueryResponseResult;
 import com.jiuyunedu.sky.model.response.ResponseResult;
 
@@ -26,5 +27,5 @@ public interface ICmsPageService {
      */
     String getPageHtml(String pageId);
 
-    ResponseResult publishPage(String pageId);
+    CoursePublishResult publishPage(CmsPage cmsPage);
 }

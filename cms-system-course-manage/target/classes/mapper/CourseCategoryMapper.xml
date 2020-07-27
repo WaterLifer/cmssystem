@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jiuyunedu.sky.dao.CourseCategoryMapper">
+
+    <resultMap id="courseCategoryMap" type="com.jiuyunedu.sky.course.ext.CategoryNode">
+        <id property="id" column="one_id" />
+        <result property="name" column="one_name" />
+        <result property="label" column="one_label" />
+        <result property="isshow" column="one_isshow" />
+        <collection property="children" ofType="com.jiuyunedu.sky.course.ext.CategoryNode">
+            <id property="id" column="two_id" />
+            <result property="name" column="two_name" />
+            <result property="label" column="two_label" />
+            <result property="isshow" column="two_isshow" />
+        </collection>
+    </resultMap>
+
+    <select id="getAllCategory" resultMap="courseCategoryMap">
+        SELECT
+            p.id as one_id,
+            p.name as one_name,
+            p.label as one_label,
+            p.isshow as one_isshow,
+            s.id as two_id,
+            s.name as two_name,
+            s.label as two_label,
+            s.isshow as two_isshow
+        FROM category p
+        LEFT JOIN category s ON s.parentid = p.id
+        WHERE p.parentid = 1 and p.isleaf = 0
+        ORDER BY p.orderby, s.orderby
+    </select>
+
+
+
+
+</mapper>

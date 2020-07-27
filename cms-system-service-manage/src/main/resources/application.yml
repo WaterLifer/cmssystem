@@ -10,16 +10,17 @@ spring:
   thymeleaf:
     cache: false
   rabbitmq:
-    host: 192.168.1.41
+    host: 192.168.2.106
     port: 5672
     username: root
     password: root
 cms:
   mq:
-    exchange: cms.static
+    exchange: site.html
 eureka:
   client:
     service-url:
       defaultZone: http://eureka.jyonline.com:7001/eureka/
   instance:
     instance-id: cms-system-service-manage
+    prefer-ip-address: true

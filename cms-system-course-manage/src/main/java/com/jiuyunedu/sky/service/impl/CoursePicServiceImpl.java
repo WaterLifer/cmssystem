@@ -40,9 +40,7 @@ public class CoursePicServiceImpl implements CoursePicService {
         }
         String courseId = coursePic.getCourseid();
         if (StringUtils.isEmpty(courseId)) {
-            // 插入
-            coursePicMapper.insert(coursePic);
-            return new CoursePicResult(CommonCode.SUCCESS, coursePic);
+            ExceptionCast.throwException(CourseCode.COURSE_PIC_ISNULL);
         }
         // 更新
         CoursePic result = coursePicMapper.selectById(coursePic.getCourseid());
