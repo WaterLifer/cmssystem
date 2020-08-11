@@ -11,5 +11,8 @@ eureka:
     instance-id: cms-system-search-manage
     prefer-ip-address: true
 elasticsearch:
-  host: 192.168.1.37:9200
-  index: course
+  host: 192.168.1.106:9200
+  course:
+    index: course
+  media:
+    index: media

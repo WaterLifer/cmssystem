@@ -2,7 +2,6 @@ package com.jiuyunedu.sky.listener;
 
 import com.alibaba.fastjson.JSON;
 import com.jiuyunedu.sky.cms.CmsPage;
-import com.jiuyunedu.sky.dao.CmsPageRepository;
 import com.jiuyunedu.sky.service.ICmsPageService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,12 +17,10 @@ public class StaticPageListener {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(StaticPageListener.class);
 
-    private final CmsPageRepository cmsPageRepository;
     private final ICmsPageService cmsPageService;
 
     @Autowired
-    public StaticPageListener(CmsPageRepository cmsPageRepository, ICmsPageService cmsPageService) {
-        this.cmsPageRepository = cmsPageRepository;
+    public StaticPageListener(ICmsPageService cmsPageService) {
         this.cmsPageService = cmsPageService;
     }
 
@@ -34,7 +31,7 @@ public class StaticPageListener {
         // 获取pageId
         String pageId = (String) msg.get("pageId");
         // 在保存之前，可以先去判断一下然后再执行后续的保存操作
-        Optional<CmsPage> cmsPageOptional = cmsPageRepository.findById(pageId);
+        Optional<CmsPage> cmsPageOptional = cmsPageService.selectById(pageId);
         if (cmsPageOptional.isEmpty()) {
             LOGGER.error("接收到的pageId为{}，无法查到此页面", pageId);
             return;

@@ -1,0 +1,26 @@
+server:
+  port: 8007
+spring:
+  application:
+    name: cms-system-media-manage
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: mediasystem
+  rabbitmq:
+    host: 192.168.0.87
+    port: 5672
+    username: root
+    password: root
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.jyonline.com:7001/eureka/
+  instance:
+    instance-id: cms-system-media-manage
+    prefer-ip-address: true
+media:
+  store-path: E:/temp/video/
+  mq:
+    exchange: site.media
+    routing-key: media.process

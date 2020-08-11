@@ -35,7 +35,7 @@ public class CourseController {
 
     @GetMapping("/get/{id}")
     public String getCoursePage(@PathVariable("id") String courseId, ModelMap modelMap) {
-        Map map = restTemplate.getForEntity("http://api.jyonline.com/course/courseview/get/" + courseId,
+        Map map = restTemplate.getForEntity("http://api.jyonline.com/course/view/get/" + courseId,
                 Map.class).getBody();
         if (map != null) {
             modelMap.addAllAttributes(map);

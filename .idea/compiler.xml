@@ -7,17 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cms-system-client" />
-        <module name="cms-system-common" />
-        <module name="cms-system-api" />
-        <module name="cms-system-eureka-server" />
-        <module name="cms-system-course-manage" />
-        <module name="cms-system-search-manage" />
-        <module name="cms-system-file-manage" />
-        <module name="cms-system-service-manage" />
+        <module name="cms-system-media-manage" />
         <module name="cms-system-template" />
-        <module name="cms-system-model" />
+        <module name="cms-system-service-manage" />
+        <module name="cms-system-common" />
+        <module name="cms-system-file-manage" />
         <module name="cms-system-utils" />
+        <module name="cms-system-eureka-server" />
+        <module name="cms-system-media-process" />
+        <module name="cms-system-api" />
+        <module name="cms-system-model" />
+        <module name="cms-system-search-manage" />
+        <module name="cms-system-course-manage" />
+        <module name="cms-system-learn-manage" />
+        <module name="cms-system-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="14">
@@ -27,6 +30,9 @@
       <module name="cms-system-course-manage" target="14" />
       <module name="cms-system-eureka-server" target="14" />
       <module name="cms-system-file-manage" target="14" />
+      <module name="cms-system-learn-manage" target="14" />
+      <module name="cms-system-media-manage" target="14" />
+      <module name="cms-system-media-process" target="14" />
       <module name="cms-system-model" target="14" />
       <module name="cms-system-parent" target="14" />
       <module name="cms-system-search-manage" target="14" />
@@ -43,6 +49,9 @@
       <module name="cms-system-course-manage" options="-parameters" />
       <module name="cms-system-eureka-server" options="-parameters" />
       <module name="cms-system-file-manage" options="-parameters" />
+      <module name="cms-system-learn-manage" options="-parameters" />
+      <module name="cms-system-media-manage" options="-parameters" />
+      <module name="cms-system-media-process" options="-parameters" />
       <module name="cms-system-model" options="-parameters" />
       <module name="cms-system-parent" options="" />
       <module name="cms-system-search-manage" options="-parameters" />

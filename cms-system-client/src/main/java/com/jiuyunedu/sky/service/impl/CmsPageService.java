@@ -53,4 +53,9 @@ public class CmsPageService implements ICmsPageService {
             e.printStackTrace();
         }
     }
+
+    @Override
+    public Optional<CmsPage> selectById(String pageId) {
+        return cmsPageRepository.findById(pageId);
+    }
 }

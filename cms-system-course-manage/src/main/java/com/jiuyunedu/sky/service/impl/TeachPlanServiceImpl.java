@@ -16,6 +16,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class TeachPlanServiceImpl implements TeachPlanService {
 
@@ -40,7 +42,7 @@ public class TeachPlanServiceImpl implements TeachPlanService {
         if (teachplan == null) {
             ExceptionCast.throwException(CourseCode.COURSE_TEACH_PLAN_ISNULL);
         }
-        if (StringUtils.isEmpty(teachplan.getCourseid()) ||
+        if (StringUtils.isEmpty(teachplan.getParentid()) ||
             StringUtils.isEmpty(teachplan.getPname())) {
             ExceptionCast.throwException(CommonCode.PARAM_FORMAT_FAILD);
         }
@@ -52,6 +54,8 @@ public class TeachPlanServiceImpl implements TeachPlanService {
             BeanCopyUtils.copyPropertiesIgnoreNull(teachplan, result);
             // 保存数据
             teachPlanMapper.updateById(result);
+
+            return new TeachPlanResult(CommonCode.SUCCESS, result);
         }
         // 添加
         // 查询父节点，我们在添加课程的时候，已经往课程计划中插入了一条数据
@@ -85,6 +89,7 @@ public class TeachPlanServiceImpl implements TeachPlanService {
         if (teachplan == null) {
             ExceptionCast.throwException(CourseCode.COURSE_TEACH_PLAN_ISNULL);
         }
+        teachPlanMapper.delete(Wrappers.<Teachplan>query().eq("parentid", id));
         teachPlanMapper.deleteById(id);
         return new TeachPlanResult(CommonCode.SUCCESS, teachplan);
     }

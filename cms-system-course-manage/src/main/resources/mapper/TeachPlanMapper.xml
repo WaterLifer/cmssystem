@@ -5,12 +5,20 @@
     <resultMap id="teachPlanMap" type="com.jiuyunedu.sky.course.ext.TeachplanNode">
         <id property="id" column="one_id" />
         <result property="pname" column="one_pname" />
+        <result property="ptype" column="one_ptype" />
+        <result property="grade" column="one_grade" />
         <collection property="children" ofType="com.jiuyunedu.sky.course.ext.TeachplanNode">
             <result property="id" column="two_id" />
             <result property="pname" column="two_pname" />
+            <result property="ptype" column="two_ptype" />
+            <result property="grade" column="two_grade" />
             <collection property="children" ofType="com.jiuyunedu.sky.course.ext.TeachplanNode">
                 <result property="id" column="three_id" />
                 <result property="pname" column="three_pname" />
+                <result property="ptype" column="three_ptype" />
+                <result property="grade" column="three_grade" />
+                <result property="mediaId" column="mediaId" />
+                <result property="mediaFileOriginalName" column="mediaFileOriginalName" />
             </collection>
         </collection>
     </resultMap>
@@ -19,13 +27,22 @@
         SELECT
             p.id as one_id,
             p.pname as one_pname,
+            p.ptype as one_ptype,
+            p.grade as one_grade,
             s.id as two_id,
             s.pname as two_pname,
+            s.ptype as two_ptype,
+            s.grade as two_grade,
             c.id as three_id,
-            c.pname as three_pname
+            c.pname as three_pname,
+            c.ptype as three_ptype,
+            c.grade as three_grade,
+            m.media_id as mediaId,
+            m.media_fileoriginalname as mediaFileOriginalName
         FROM teachplan p
-                 LEFT JOIN teachplan s ON s.parentid = p.id
-                 LEFT JOIN teachplan c ON c.parentid = s.id
+        LEFT JOIN teachplan s ON s.parentid = p.id
+        LEFT JOIN teachplan c ON c.parentid = s.id
+        LEFT JOIN teachplan_media m ON c.id = m.teachplan_id
         WHERE p.parentid = 0
         <if test="courseId != null and courseId != ''">
             AND p.courseid = #{courseId}

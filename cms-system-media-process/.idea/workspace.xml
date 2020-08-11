@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51278445-f2c0-4592-b701-937982a3a44d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/MediaFileControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/SearchControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/advice/CustomControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/cms-system-media-manage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/src/main/java/com/jiuyunedu/sky/MediaManageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/src/main/java/com/jiuyunedu/sky/advice/CustomControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/src/main/java/com/jiuyunedu/sky/config/MediaSystemConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/src/main/java/com/jiuyunedu/sky/controller/MediaFileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/src/main/java/com/jiuyunedu/sky/dao/MediaFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/src/main/java/com/jiuyunedu/sky/service/MediaFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/src/main/java/com/jiuyunedu/sky/service/impl/MediaFileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-media-manage/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-search-manage/src/main/java/com/jiuyunedu/sky/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-api/cms-system-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-api/cms-system-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-client/cms-system-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-client/cms-system-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/target/cms-system-common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/target/cms-system-common-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/target/surefire-reports/TEST-com.jiuyunedu.sky.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-common/target/surefire-reports/com.jiuyunedu.sky.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/cms-system-course-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/cms-system-course-manage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/impl/TeachPlanServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/impl/TeachPlanServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/CoursePicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/CoursePicServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/TeachPlanServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/TeachPlanServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-eureka-server/cms-system-eureka-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-eureka-server/cms-system-eureka-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-file-manage/cms-system-file-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-file-manage/cms-system-file-manage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/cms-system-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/cms-system-model.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/course/Teachplan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/course/Teachplan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/media/response/CheckChunkResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/media/response/CheckChunkResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/media/response/MediaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/media/response/MediaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/target/classes/com/jiuyunedu/sky/course/Teachplan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/target/classes/com/jiuyunedu/sky/course/Teachplan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/target/classes/com/jiuyunedu/sky/media/response/CheckChunkResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/target/classes/com/jiuyunedu/sky/media/response/CheckChunkResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/target/classes/com/jiuyunedu/sky/media/response/MediaCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/target/classes/com/jiuyunedu/sky/media/response/MediaCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-search-manage/cms-system-search-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-search-manage/cms-system-search-manage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-search-manage/src/main/java/com/jiuyunedu/sky/service/impl/CoursePubServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-search-manage/src/main/java/com/jiuyunedu/sky/service/impl/CoursePubServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-search-manage/target/classes/com/jiuyunedu/sky/service/impl/CoursePubServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-search-manage/target/classes/com/jiuyunedu/sky/service/impl/CoursePubServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-service-manage/cms-system-service-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-service-manage/cms-system-service-manage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-template/cms-system-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-template/cms-system-template.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\WaterLifer\.m2\repository" />
+        <option name="mavenHome" value="C:\softwares\jetbrains\IntelliJIDEA\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="C:\Users\WaterLifer\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="14" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fOgOkQ34OeEUhdxOA87HFEZLez" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51278445-f2c0-4592-b701-937982a3a44d" name="Default Changelist" comment="" />
+      <created>1596094527104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596094527104</updated>
+      <workItem from="1596094529031" duration="42000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

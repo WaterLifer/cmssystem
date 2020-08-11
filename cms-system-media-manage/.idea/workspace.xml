@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2981ab0f-377c-4ae0-8f76-1c992be6d0d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../cms-system-api/src/main/java/com/jiuyunedu/sky/api/SearchControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/advice/CustomControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cms-system-search-manage/src/main/java/com/jiuyunedu/sky/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/impl/TeachPlanServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/src/main/java/com/jiuyunedu/sky/service/impl/TeachPlanServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/CoursePicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/CoursePicServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/TeachPlanServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-course-manage/target/classes/com/jiuyunedu/sky/service/impl/TeachPlanServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/course/Teachplan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-model/src/main/java/com/jiuyunedu/sky/course/Teachplan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-search-manage/src/main/java/com/jiuyunedu/sky/service/impl/CoursePubServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-search-manage/src/main/java/com/jiuyunedu/sky/service/impl/CoursePubServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cms-system-search-manage/target/classes/com/jiuyunedu/sky/service/impl/CoursePubServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cms-system-search-manage/target/classes/com/jiuyunedu/sky/service/impl/CoursePubServiceImpl.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\WaterLifer\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../greenSoftwares/apacheMaven" />
+        <option name="userSettingsFile" value="C:\Users\WaterLifer\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="14" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fIPBX7e3IPVA4CGS0zViafyD2Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2981ab0f-377c-4ae0-8f76-1c992be6d0d1" name="Default Changelist" comment="" />
+      <created>1595902498740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595902498740</updated>
+      <workItem from="1595902568934" duration="18000" />
+    </task>
+    <servers />
+  </component>
+</project>

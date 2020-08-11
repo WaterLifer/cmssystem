@@ -12,7 +12,8 @@ import java.util.List;
  */
 public class VideoUtil {
 
-    String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
+    //ffmpeg的安装位置
+    private String ffmpeg_path;
 
     public VideoUtil(String ffmpeg_path){
         this.ffmpeg_path = ffmpeg_path;
@@ -122,13 +123,5 @@ public class VideoUtil {
         }
        return outputString.toString();
 
-    }
-
-
-    public static void main(String[] args) throws IOException {
-        String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
-        VideoUtil videoUtil = new VideoUtil(ffmpeg_path);
-        String video_time = videoUtil.get_video_time("E:\\ffmpeg_test\\1.avi");
-        System.out.println(video_time);
     }
 }

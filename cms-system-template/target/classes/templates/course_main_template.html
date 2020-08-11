@@ -183,8 +183,8 @@
                                     <div class="title act"><i class="i-chevron-top"></i>[[${plan.pname}]]<span class="time">[[${plan.timelength}]]</span></div>
                                     <div class="about"></div>
                                     <div class="drop-down" style="height: 100px;">
-                                        <ul class="list-box" th:each="child : ${plan.children}">
-                                                <li>[[${child.pname}]] <span>[[${child.timelength}]]</span></li>
+                                        <ul class="list-box">
+                                                <li th:each="child : ${plan.children}">[[${child.pname}]] <span>[[${child.timelength}]]</span></li>
                                         </ul>
                                     </div>
                                 </div>

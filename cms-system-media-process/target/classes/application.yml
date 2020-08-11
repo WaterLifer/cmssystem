@@ -1,0 +1,27 @@
+server:
+  port: 8003
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: mediasystem
+  rabbitmq:
+    host: 192.168.2.104
+    port: 5672
+    username: root
+    password: root
+  application:
+    name: cms-system-media-process
+cms:
+  mq:
+    queue: queue.media
+    routingKey: media.process
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.jyonline.com:7001/eureka/
+  instance:
+    instance-id: cms-system-media-process
+cms-media-process:
+  video-path: E:/temp/video/
+  ffmpeg-path: E:/greenSoftwares/ffmpeg/bin/ffmpeg.exe

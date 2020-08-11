@@ -1,0 +1,21 @@
+server:
+  port: 8008
+spring:
+  application:
+    name: cms-system-learn-manage
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/cms_course?useSSL=false&serverTimezone=UTC&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&autoReconnect=true&failOverReadOnly=false&autoReconnectForPools=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: cmssystem
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.jyonline.com:7001/eureka/
+  instance:
+    instance-id: cms-system-learn-manage
+    prefer-ip-address: true

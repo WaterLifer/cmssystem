@@ -12,10 +12,10 @@ import java.util.List;
  */
 public class Mp4VideoUtil extends VideoUtil {
 
-    String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
-    String video_path = "D:\\BaiduNetdiskDownload\\test1.avi";
-    String mp4_name = "test1.mp4";
-    String mp4folder_path = "D:/BaiduNetdiskDownload/Movies/test1/";
+    private String ffmpeg_path;//ffmpeg的安装位置
+    private String video_path;
+    private String mp4_name;
+    private String mp4folder_path;
     public Mp4VideoUtil(String ffmpeg_path, String video_path, String mp4_name, String mp4folder_path){
         super(ffmpeg_path);
         this.ffmpeg_path = ffmpeg_path;
@@ -51,7 +51,7 @@ public class Mp4VideoUtil extends VideoUtil {
         commend.add("libx264");
         commend.add("-y");//覆盖输出文件
         commend.add("-s");
-        commend.add("1280x720");
+//        commend.add("1280x720");
         commend.add("-pix_fmt");
         commend.add("yuv420p");
         commend.add("-b:a");
@@ -81,15 +81,5 @@ public class Mp4VideoUtil extends VideoUtil {
         }else{
             return "success";
         }
-    }
-
-    public static void main(String[] args) throws IOException {
-        String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
-        String video_path = "E:\\ffmpeg_test\\1.avi";
-        String mp4_name = "809694a6a974c35e3a36f36850837d7c.mp4";
-        String mp4_path = "F:/develop/upload/8/0/809694a6a974c35e3a36f36850837d7c/";
-        Mp4VideoUtil videoUtil = new Mp4VideoUtil(ffmpeg_path,video_path,mp4_name,mp4_path);
-        String s = videoUtil.generateMp4();
-        System.out.println(s);
     }
 }

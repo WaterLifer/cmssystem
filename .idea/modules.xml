@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/cms-system-course-manage/cms-system-course-manage.iml" filepath="$PROJECT_DIR$/cms-system-course-manage/cms-system-course-manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms-system-eureka-server/cms-system-eureka-server.iml" filepath="$PROJECT_DIR$/cms-system-eureka-server/cms-system-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms-system-file-manage/cms-system-file-manage.iml" filepath="$PROJECT_DIR$/cms-system-file-manage/cms-system-file-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-system-learn-manage/cms-system-learn-manage.iml" filepath="$PROJECT_DIR$/cms-system-learn-manage/cms-system-learn-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-system-media-manage/cms-system-media-manage.iml" filepath="$PROJECT_DIR$/cms-system-media-manage/cms-system-media-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-system-media-process/cms-system-media-process.iml" filepath="$PROJECT_DIR$/cms-system-media-process/cms-system-media-process.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms-system-model/cms-system-model.iml" filepath="$PROJECT_DIR$/cms-system-model/cms-system-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms-system-parent/cms-system-parent.iml" filepath="$PROJECT_DIR$/cms-system-parent/cms-system-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms-system-search-manage/cms-system-search-manage.iml" filepath="$PROJECT_DIR$/cms-system-search-manage/cms-system-search-manage.iml" />

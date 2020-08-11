@@ -22,7 +22,9 @@ import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilde
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 @Service
@@ -30,7 +32,7 @@ public class CoursePubServiceImpl implements CoursePubService {
 
     @Resource
     private ElasticsearchRestTemplate elasticsearchTemplate;
-    @Value("${elasticsearch.index}")
+    @Value("${elasticsearch.course.index}")
     private String searchIndex;
 
     @Override
@@ -69,7 +71,10 @@ public class CoursePubServiceImpl implements CoursePubService {
         }
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
         queryBuilder.withQuery(booleanQueryBuilder);
-        queryBuilder.withPageable(PageRequest.of(Integer.parseInt(page), Integer.parseInt(size)));
+        queryBuilder.withPageable(
+                PageRequest.of(
+                        Math.max(Integer.parseInt(page) - 1, 0),
+                        Integer.parseInt(size) <= 0 ? Integer.parseInt(size) : 10));
 
         // 设置高亮
         HighlightBuilder highlightBuilder = new HighlightBuilder()
@@ -85,5 +90,19 @@ public class CoursePubServiceImpl implements CoursePubService {
         List<CoursePub> coursePubs = coursePubSearchHits.get().map(SearchHit::getContent).collect(Collectors.toList());
 
         return new QueryResponseResult<>(CommonCode.SUCCESS, new QueryResult<>(coursePubs, coursePubSearchHits.getTotalHits()));
+    }
+
+    @Override
+    public Map<String, CoursePub> getCoursePubById(String id) {
+        // 根据id查询
+        SearchHits<CoursePub> coursePubSearchHits = elasticsearchTemplate.search(
+                new NativeSearchQueryBuilder().withQuery(QueryBuilders.termQuery("id", id)).build(),
+                CoursePub.class,
+                IndexCoordinates.of(searchIndex));
+        List<CoursePub> coursePubs = coursePubSearchHits.get().map(SearchHit::getContent).collect(Collectors.toList());
+        CoursePub coursePub = coursePubs.get(0);
+        Map<String, CoursePub> coursePubMap = new HashMap<>();
+        coursePubMap.put(coursePub.getId(), coursePub);
+        return coursePubMap;
     }
 }

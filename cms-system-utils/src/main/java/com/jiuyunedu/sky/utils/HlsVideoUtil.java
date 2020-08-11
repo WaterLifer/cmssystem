@@ -11,11 +11,11 @@ import java.util.List;
  *
  */
 public class HlsVideoUtil extends  VideoUtil {
-
-    String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
-    String video_path = "D:\\BaiduNetdiskDownload\\test1.avi";
-    String m3u8_name = "test1.m3u8";
-    String m3u8folder_path = "D:/BaiduNetdiskDownload/Movies/test1/";
+    //ffmpeg的安装位置
+    private String ffmpeg_path;
+    private String video_path;
+    private String m3u8_name;
+    private String m3u8folder_path;
     public HlsVideoUtil(String ffmpeg_path, String video_path, String m3u8_name,String m3u8folder_path){
         super(ffmpeg_path);
         this.ffmpeg_path = ffmpeg_path;
@@ -49,23 +49,24 @@ public class HlsVideoUtil extends  VideoUtil {
     public String generateM3u8(){
         //清理m3u8文件目录
         clear_m3u8(m3u8folder_path);
- /*
-        ffmpeg -i  lucene.mp4   -hls_time 10 -hls_list_size 0   -hls_segment_filename ./hls/lucene_%05d.ts ./hls/lucene.m3u8
-         */
-//        String m3u8_name = video_name.substring(0, video_name.lastIndexOf("."))+".m3u8";
+        // ffmpeg -i '源文件.mp4' -c:v h264 -flags +cgop -g 30 -hls_time 20 -hls_list_size 0 -hls_segment_filename index%3d.ts 'index.m3u8'
         List<String> commend = new ArrayList<String>();
         commend.add(ffmpeg_path);
         commend.add("-i");
         commend.add(video_path);
+        commend.add("-c:v");
+        commend.add("h264");
+        commend.add("-flags");
+        commend.add("+cgop");
+        commend.add("-g");
+        commend.add("10");
         commend.add("-hls_time");
         commend.add("10");
         commend.add("-hls_list_size");
         commend.add("0");
         commend.add("-hls_segment_filename");
-//        commend.add("D:/BaiduNetdiskDownload/Movies/test1/test1_%05d.ts");
         commend.add(m3u8folder_path  + m3u8_name.substring(0,m3u8_name.lastIndexOf(".")) + "_%05d.ts");
-//        commend.add("D:/BaiduNetdiskDownload/Movies/test1/test1.m3u8");
-        commend.add(m3u8folder_path  + m3u8_name );
+        commend.add(m3u8folder_path  + m3u8_name);
         String outstring = null;
         try {
             ProcessBuilder builder = new ProcessBuilder();
@@ -136,19 +137,5 @@ public class HlsVideoUtil extends  VideoUtil {
         }
         return null;
 
-    }
-
-
-
-
-    public static void main(String[] args) throws IOException {
-        String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
-        String video_path = "E:\\ffmpeg_test\\1.mp4";
-        String m3u8_name = "1.m3u8";
-        String m3u8_path = "E:\\ffmpeg_test\\1\\";
-        HlsVideoUtil videoUtil = new HlsVideoUtil(ffmpeg_path,video_path,m3u8_name,m3u8_path);
-        String s = videoUtil.generateM3u8();
-        System.out.println(s);
-        System.out.println(videoUtil.get_ts_list());
     }
 }
