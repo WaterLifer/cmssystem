@@ -27,7 +27,7 @@
         <swagger2.version>2.10.5</swagger2.version>
         <fastdfs.version>1.27.2</fastdfs.version>
         <guava.version>29.0-jre</guava.version>
-        <hibernate-core.version>5.4.18.Final</hibernate-core.version>
+        <hibernate-core.version>5.4.24.Final</hibernate-core.version>
         <httpclient.version>4.5.12</httpclient.version>
         <fastjson.version>1.2.72</fastjson.version>
         <jwt.versin>1.0.9.RELEASE</jwt.versin>
