@@ -31,7 +31,7 @@
         <httpclient.version>4.5.12</httpclient.version>
         <fastjson.version>1.2.72</fastjson.version>
         <jwt.versin>1.0.9.RELEASE</jwt.versin>
-        <zip4j.version>2.6.1</zip4j.version>
+        <zip4j.version>2.9.1</zip4j.version>
         <mybatis-plus.version>3.3.2</mybatis-plus.version>
         <fastdfs.version>1.27.2</fastdfs.version>
         <hutool.version>5.3.9</hutool.version>
